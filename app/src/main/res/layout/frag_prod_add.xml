@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="60dp"
+            android:layout_width="360dp"
+            android:layout_marginLeft="25dp"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_UpImg"
+                    android:layout_width="160dp"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="3dp"
+                    app:icon="@drawable/ic_img"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                    android:text="Tải ảnh lên"
+                    android:backgroundTint="@color/white"
+                    />
+
+
+                <Button
+                    android:id="@+id/btn_addImg"
+                    android:layout_width="160dp"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="3dp"
+                    app:icon="@drawable/imga"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                    android:text="Chụp ảnh"
+                    android:backgroundTint="@color/white"
+                    />
+            </LinearLayout>
+
+
+
+            <ImageView
+                android:id="@+id/img_add"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:fontFamily="@font/roboto"
+                android:text="Tên Sản Phẩm"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" *"
+                android:textSize="20sp"
+                android:textColor="#FF0000"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edName_prod"
+            android:layout_width="350dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:hint="ví dụ :  Giấy A4" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:fontFamily="@font/roboto"
+                android:text="Vị  Trí"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" *"
+                android:textSize="20sp"
+                android:textColor="#FF0000"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edViTri_prod"
+            android:layout_width="350dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:hint="ví dụ :  Khu a" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Giá Bán"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" *"
+                        android:textSize="20sp"
+                        android:textColor="#FF0000"/>
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edPrice_prod"
+                    android:layout_width="150dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:layout_marginLeft="29dp"
+                    android:hint="0.000" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="24dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="48dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Giá Vốn"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/edCostPrice_prod"
+                    android:layout_width="150dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:layout_marginLeft="53dp"
+                    android:hint="0.000" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/btnAdd_prod"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"
+            android:text="xác nhận"
+            android:textColor="@color/black" />
+
+
+
+
+    </LinearLayout>
+    
+    
+</layout>

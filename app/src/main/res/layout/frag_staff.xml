@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragment.FragStaff.FragStaff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_add"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_addnv"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="469dp"
+            android:text="thêm nhân viên"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</layout>

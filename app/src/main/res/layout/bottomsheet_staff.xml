@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chi tiết nhân viên"
+            android:textSize="18dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mã nhân viên: "
+            android:textSize="14dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/bts_id_staff"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="NV001"
+            android:textSize="14dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/quicksand_medium"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Tên nhân viên: "
+            android:textSize="14dp"
+            android:fontFamily="@font/quicksand_bold"
+
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/bts_name_staff"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Đinh viết khang"
+            android:textSize="14dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/quicksand_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Tên tài khoản: "
+            android:textSize="14dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/bts_username_staff"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="khangloong"
+            android:textSize="14dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/quicksand_medium"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Số điện thoại: "
+            android:textSize="14dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/bts_phone_staff"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="0338269641"
+            android:textSize="14dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/quicksand_medium"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Vị trí: "
+            android:textSize="14dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/bts_position_staff"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="nhân viên"
+            android:textSize="14dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/quicksand_medium"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bts_btn_delete_staff"
+            android:text="Xóa"
+            android:fontFamily="@font/quicksand_bold"
+            android:textColor="#FF0000"
+            android:background="@drawable/vien_bo_goc"
+            android:shadowColor="@color/black"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bts_btn_update_staff"
+            android:layout_marginLeft="50dp"
+            android:text="chỉnh sửa"
+            android:fontFamily="@font/quicksand_bold"
+            android:textColor="#000000"
+            android:background="@drawable/vien_bo_goc"
+            android:shadowColor="@color/black"/>
+    </LinearLayout>
+</LinearLayout>
+</layout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Button" parent="">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlayInner</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/quicksand</item>
+        <item name="contentPadding">100dp</item>
+        <item name="android:outlineProvider">none</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlayInner" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="Widget.ButtonRound" parent="Widget.MaterialComponents.Button.Icon">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlayRound</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:fontFamily">@font/quicksand</item>
+        <item name="contentPadding">100dp</item>
+        <item name="android:outlineProvider">none</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlayRound" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="customTextView" parent="">
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+</resources>

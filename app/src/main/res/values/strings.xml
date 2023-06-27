@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Warehouse</string>
+    <string name="des_launcher">Warehousing is the storage of physical inventory.
+The purpose of warehouses is to temporarily store bulk products before shipping them out</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

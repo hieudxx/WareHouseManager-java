@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "552048341705",
+    "project_id": "warehouse-a4e2b",
+    "storage_bucket": "warehouse-a4e2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552048341705:android:5ab7b29c42ffd217ecd318",
+        "android_client_info": {
+          "package_name": "com.zrapp.warehouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552048341705-6dof0u7fnom3mdikbdoju2eqlaab25u4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zrapp.warehouse",
+            "certificate_hash": "5a2368f42c129ccb3993bd3d068d18390cb7d404"
+          }
+        },
+        {
+          "client_id": "552048341705-da3ne4q07b9gfp11c87nm8hm7ma8amer.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsztzWCjp4djRir1W36hJl0g2pQ9O8zMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552048341705-da3ne4q07b9gfp11c87nm8hm7ma8amer.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
